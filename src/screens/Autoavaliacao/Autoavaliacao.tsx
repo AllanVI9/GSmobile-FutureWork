@@ -115,7 +115,6 @@ export default function Autoavaliacao() {
         </View>
       </Modal>
 
-      {/* Modal para Nível */}
       <Modal
         visible={showNivelModal}
         transparent={true}

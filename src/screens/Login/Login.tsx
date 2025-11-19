@@ -28,7 +28,6 @@ export default function Login({ navigation }: Props) {
     console.log("Loading ativado, tentando fazer login com:", email);
 
     try {
-      // Remove espaços em branco do email
       const cleanEmail = email.trim().toLowerCase();
       const cleanPassword = password.trim();
 
@@ -36,12 +35,11 @@ export default function Login({ navigation }: Props) {
       console.log("Senha tem", cleanPassword.length, "caracteres");
 
       const userCredential = await signInWithEmailAndPassword(auth, cleanEmail, cleanPassword);
-      console.log("✅ Usuário logado com sucesso:", userCredential.user.uid);
+      console.log("Usuário logado com sucesso:", userCredential.user.uid);
       console.log("Email do usuário:", userCredential.user.email);
 
       setLoading(false);
 
-      // Navega para a tela principal
       navigation.dispatch(
         CommonActions.reset({
           index: 0,
@@ -50,11 +48,10 @@ export default function Login({ navigation }: Props) {
       );
     } catch (error: any) {
       setLoading(false);
-      console.error("❌ Erro completo no login:", JSON.stringify(error, null, 2));
+      console.error("Erro completo no login:", JSON.stringify(error, null, 2));
       console.error("Código do erro:", error.code);
       console.error("Mensagem do erro:", error.message);
 
-      // Tratamento específico de erros
       let errorMessage = "Email ou senha inválidos";
 
       if (error.code) {
@@ -90,7 +87,6 @@ export default function Login({ navigation }: Props) {
         errorMessage = error.message;
       }
 
-      // Mostra o código do erro no console para debug
       console.log("Mensagem de erro exibida:", errorMessage);
 
       Alert.alert("Erro no Login", errorMessage);

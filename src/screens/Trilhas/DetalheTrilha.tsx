@@ -17,7 +17,6 @@ export default function DetalheTrilha({ route }: Props) {
   return (
     <ScrollView style={styles.container}>
 
-      {/* Botão de voltar */}
       <TouchableOpacity
         onPress={() => navigation.goBack()}
         style={{ marginTop: 10, marginBottom: 20 }}

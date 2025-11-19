@@ -36,7 +36,6 @@ export default function Register({ navigation }: Props) {
         password
       );
 
-      // Garante que está logado antes de gravar no DB
       await auth.authStateReady();
 
       const userData = {
