@@ -151,7 +151,44 @@ GSFutureWork/
 ## 👥 Autores
 
 Allan Von Ivanov - Rm98705
+
 João Rodrigo Solano Nogueira - Rm551319
+
+## Telas do projeto:
+
+### Login:
+<img width="390" height="824" alt="Login" src="https://github.com/user-attachments/assets/e6342ed4-31ec-4283-a4ec-3afb0288a4bd" />
+
+### Cadastro:
+<img width="390" height="824" alt="Cadastro" src="https://github.com/user-attachments/assets/3ea54cc8-d9cd-4968-95d9-3a9215c5ec6c" />
+
+### Firebase:
+<img width="1920" height="1032" alt="FirebaseTela 01" src="https://github.com/user-attachments/assets/e4410fbe-7e6d-4f12-b069-cbad8354564c" />
+
+### Tela 01:
+<img width="390" height="824" alt="tela01" src="https://github.com/user-attachments/assets/1ec45bb8-0003-4b00-b18f-8525c40f65b1" />
+
+### Tela 02:
+<img width="390" height="824" alt="tela02" src="https://github.com/user-attachments/assets/04003800-df82-4f98-ac71-967ec4d36cc8" />
+
+### Tela 03:
+<img width="390" height="824" alt="tela03" src="https://github.com/user-attachments/assets/b0076501-7eae-44bf-a86a-619e27ebdbcd" />
+
+### Tela 04:
+<img width="390" height="824" alt="tela04" src="https://github.com/user-attachments/assets/f85f7fb8-b519-44a2-bb2f-99e6974468ce" />
+
+### Tela 05:
+<img width="390" height="824" alt="tela05" src="https://github.com/user-attachments/assets/218e855e-c0ef-47e6-a82a-7209577b0849" />
+
+### Tela 06:
+<img width="390" height="824" alt="tela06" src="https://github.com/user-attachments/assets/46d1fa21-02b5-4bad-9198-6f535679be74" />
+
+### Tela 07:
+<img width="390" height="824" alt="tela07" src="https://github.com/user-attachments/assets/7d325957-568a-4d95-936f-4ec2bf2bf5ca" />
+
+### Tela 08:
+<img width="390" height="824" alt="tela08" src="https://github.com/user-attachments/assets/4ede3255-9488-4967-bf27-2fa79c72d8e0" />
+
 
 ## 📄 Licença
 
@@ -160,3 +197,4 @@ Este projeto foi desenvolvido para fins acadêmicos.
 ---
 
 **Desenvolvido com ❤️ para o futuro do trabalho**
+
