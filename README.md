@@ -150,7 +150,8 @@ GSFutureWork/
 
 ## 👥 Autores
 
-[Nome dos integrantes do grupo]
+Allan Von Ivanov - Rm98705
+João Rodrigo Solano Nogueira - Rm551319
 
 ## 📄 Licença
 
